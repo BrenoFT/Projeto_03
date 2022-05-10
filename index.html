@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="description" content="Descrição">
+            <meta name="keywords" content="palavras,chaves">
+            <meta name="author" content="Breno Freitas">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+            <link rel="stylesheet" href="css/style.css">
+            <title>Projeto_03</title>
+        </head>
+        <body>
+            <header>
+                <div class="container">
+                <div class="logo"></div>
+                <nav class="desktop">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+                <nav class="mobile">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+                </div>
+                <div class="clear"></div>
+                <div class="chamada-1">
+                    <h2>Sistemas Próprios</h2>
+                    <h2>Para Empresas Autênticas </h2>
+                    <p>Para Empresas AutênticasPara Empresas AutênticasPara Empresas AutênticasPara Empresas Autênticas</p>
+                </div>
+            </header>
+            <div class="clear"></div>
+            <section class="sessao1">
+                <div class="container">
+                    <div class="texto-sessao1">
+                        <h2>Desenvolvemos Sistemas Únicos</h2>
+                        <p>Lorem Ipsum silor domor amet</p>
+                        <ul>
+                            <li>Sites</li>
+                            <li>Lojas Virtuais</li>
+                            <li>Sistemas</li>
+                        </ul>
+                    <div class="clear"></div>
+                    <div class="btn1">Entre em contato</div>
+                    <div class="clear"></div>
+                    </div>
+                    
+                    <div class="device-sessao1">
+
+                    </div>
+                    <div class="clear"></div>
+                </div>   
+            </section>
+            <section class="sessao2">
+                <div class="container">
+                    <h2>Desenvolvido por pessoas e para pessoas</h2>
+                    <p>Desenvolvido por pessoas e para pessoas Desenvolvido p Desenvolvido por pessoas e para pessoas Desenvolvido p Desenvolvido por pessoas e para pessoas Desenvolvido p Desenvolvido por pessoas e para pessoas Desenvolvido pDesenvolvido por pessoas e para pessoas Desenvolvido por pessoas e para pessoas Desenvolvido por pessoas e para pessoas Desenvolvido por pessoas e para pessoas</p>
+                    <img src="imagens/mockup.jpg">
+                </div>
+            </section>
+            <section class="sessao3">
+                <div class="part1">
+                <div class="wrapen-part1">   
+                    <h2>Nosso time</h2>
+                    <p>Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time Nosso time </p>
+                </div>
+                </div>
+                <div class="part2">
+                    <div class="sobre-autor">
+                        <div class="titulo-autor">
+                            <div class="wraper-titulo-autor">
+                            <h2>Breno Freitas</h2>
+                            <p>Co-Founder / Desenvovedor</p>
+                            
+                            </div>
+                            <div class="img-autor"></div>    
+                        </div>
+                        <div class="texto-autor">
+                            <p>Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas Breno Freitas </p>
+                        </div>
+                    </div>   
+                </div>
+                <div class="clear"></div>
+            </section>
+            <section class="sessao4"> 
+                <div class="container">
+                    <div class="form">
+                        <h2>Entre em contato</h2>
+                        <p>Entre em contato Entre em contato Entre em contato Entre em contato Entre em contato Entre em contato Entre em contato Entre em contato Entre em contato Entre em contato Entre em contato </p>
+                        <form>
+                            <input type="text" name="Nome" placeholder="Nome">
+                            <input type="text" name="E-mail" placeholder="E-mail">
+                            <textarea name="mensagem" placeholder="Mensagem"></textarea>
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </div> 
+            <div class="map-wraper">    
+                <h2>Faça uma visíta</h2>
+                <div class="map-wraper3">
+                <div class="map-wraper2">    
+                <div class="map" id="mapa"></div>
+                </div>
+                </div>
+            </div>           
+                <div class="clear"></div>
+                
+                </div>
+            </section>
+
+            <footer>
+                <div class="container">
+                <p>Todos os direitos reservados</p>
+                <p>freitasbreno174@gmail.com</p>
+                </div>
+            </footer>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnv7y3NuVB3H7-6XXXbtFUYOsvWql_d-8&">
+
+            </script>
+            <script>
+                window.onload = function(){
+
+                    
+                    var map;
+
+                    function initialize(){
+                        var mapProp = {
+                            center: new google.maps.Latlng(-27.648598,-48.577423),
+                            scrollWheel:false,
+                            zoom:12,
+                            MapType:google.maps.MapTypeId.ROADMAP
+                        }
+
+                        map = new google.maps.Map(document.getElementById("mapa"),mapProp);
+                    }
+                    
+                    initialize();
+                    
+                }
+                    
+            </script>
+        </body>
+        </html>
+ 
